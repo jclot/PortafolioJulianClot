@@ -1,79 +1,92 @@
-![thumbnail](https://user-images.githubusercontent.com/16558205/180779213-ea740975-3df1-460a-a964-0a623ee25872.png)
+<div align="center">
+  <h1>Julian Clot Córdoba</h1>
+  <p>Software Engineering Portfolio</p>
 
-### Live - https://react-portfolio-template.netlify.app
-### Demo Video - https://www.youtube.com/watch?v=62_HLbx2zLQ&t=9s
-### Open Source UI Components - https://ui.chetanverma.com/
+  [![Status](https://img.shields.io/badge/Status-Development-yellow)](#)
+  [![Framework](https://img.shields.io/badge/Framework-Next.js-black)](#)
+  [![Styling](https://img.shields.io/badge/Styling-TailwindCSS-blue)](#)
+  [![License](https://img.shields.io/badge/License-MIT-green)](#)
+</div>
 
-### Tutorials
+---
 
-Youtube - https://www.youtube.com/watch?v=8cmJ2kR4SpM
+## Overview
 
-Blog - https://www.chetanverma.com/blog/how-to-build-a-portfolio-website-using-nextjs-and-tailwindcss
+This repository contains the source code for my personal professional portfolio, serving as a centralized showcase of my software engineering trajectory, specialized projects, and technical expertise. 
 
-### Features - 
+As a Computer Systems Engineering student at Universidad Fidélitas, my work spans from high-level SaaS solutions to low-level systems programming. This platform highlights my contributions to custom language development (**ClotLang**), kernel architecture (**grantOS**), and financial ecosystems (**REGIVA**).
 
-- Modern Stack (Next.js + TailwindCSS)
-- Minimal Design
-- Easy To Browse
-- Easy To Customize your details With GUI
-- Blog Crud (Create, Read, Update, Delete blog with easy to use UI).
-- Dark Mode
+---
 
+## Technical Expertise
 
-### Sections
+* **Systems Programming:** Compiler design, LLVM backends, and x86_64 kernel development.
+* **Web Engineering:** Full-stack development utilizing Next.js, TailwindCSS, ASP.NET Core 8, and PostgreSQL.
+* **Languages:** C#, .NET, Python, C++, PHP, and Assembly.
+* **Specialized Analysis:** Predictive criminology modeling and cybersecurity (Red Teaming).
 
-- Header
-- Work
-- Services
-- About
-- Contact
-- Markdown Blog
+---
 
+## Flagship Projects
 
-### How To Use
+* **ClotLang:** A multiparadigm programming language featuring a modular architecture and an LLVM backend for AOT compilation.
+* **REGIVA:** A secure multi-tenant SaaS financial tool for Costa Rican SMEs, integrating AI-driven cash flow projections.
+* **grantOS:** An operating system kernel designed for high-performance scientific and physical calculations.
+* **ClotCor:** A geographic crime analysis framework utilizing historical data to project delictual hotspots.
 
-- Clone this repo
-- run `yarn`
-- `yarn dev`
+---
 
+## Features
 
-### How To Deploy - 
+* **Modern Stack:** Built with Next.js and TailwindCSS for optimal performance, responsiveness, and SEO.
+* **Content Management:** A structured portfolio layout including Work, Services, About, and Contact sections.
+* **Technical Blog:** An integrated Markdown-based blog system for publishing technical insights and development updates.
+* **Dark Mode Support:** Native support for high-contrast viewing themes.
 
-- There are many ways to Deploy this repo.
-- here we are gonna use netlify
-- Login into netlify with github
-- after login select the forked repo or the repo you want to deploy
-- after selecting netlify will automatially deploy your website.
+---
 
-Quickes way to deploy this repo - 
+## Local Setup and Development
 
-[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/chetanverma16/react-portfolio-template)
+To execute the portfolio locally for testing or customization, ensure you have **Node.js** and a package manager (npm or yarn) installed.
 
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/jclot/portfolio.git](https://github.com/jclot/portfolio.git)
+cd portfolio
+```
 
-### How To Contribute - 
+### 2. Install Dependencies
+```bash
+npm install
+# or
+yarn
+```
 
-I would be very happy to review your PRs and all the awesome things that you can improve on this portfolio.
+### 3. Execution
+Launch the development server:
+```bash
+npm run dev
+# or
+yarn dev
+```
+The application will be accessible at `http://localhost:3000`.
 
+---
 
-### Tech Stack Used - 
-- Next.js
-- TailwindCSS
+## Deployment
 
+This project is optimized for deployment on cloud platforms such as **Netlify** or **Vercel**. 
 
-### Thanks
+1. Connect your GitHub repository to the hosting provider.
+2. The platform will automatically detect the Next.js environment.
+3. Use the following build settings:
+   * **Build Command:** `npm run build`
+   * **Publish Directory:** `.next`
 
-If you liked this portfolio template, don't forget to give it a ⭐.
+---
 
-## Awesome Contributors
-[@Aryan3212](https://github.com/Aryan3212) [@achu-krishna](https://github.com/achu-krishna)
+## License and Authorship
 
-## Supporting
-Many hours of hard work have gone into this project. Your support will be very appreciated!
+**Author:** Julián Clot Córdoba ([jclot](https://github.com/jclot))
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/chetanverma)
-
-
-
-
-
-
+This project is adapted from an open-source template and customized to reflect proprietary engineering work. It is distributed under the **MIT License**.
